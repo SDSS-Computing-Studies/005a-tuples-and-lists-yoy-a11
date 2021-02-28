@@ -25,4 +25,14 @@ word not in list
 """
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
+print(fruit)
+name = input().strip()
+if name in fruit:
+    for i in fruit:
+        if name  == i:
+            fruit.remove(i)
+else:
+    print("word not in list")
+    fruit.append(name)
 
+print(fruit)
