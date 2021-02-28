@@ -21,7 +21,7 @@ Enter the replacement:Dan
 """
 myList = ["Alain","Brian","Chris","Justin","Angela","Rick"]
 print(myList)
-name = input()
-replaceName = input()
+name = input().strip()
+replaceName = input().strip()
 myList[myList.index(name)] = replaceName
 print(myList)
