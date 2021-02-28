@@ -19,3 +19,9 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+myList = ["Alain","Brian","Chris","Justin","Angela","Rick"]
+print(myList)
+myList.remove("Rick")
+print(myList)
+myList.insert(6, "Dan")
+print(myList)

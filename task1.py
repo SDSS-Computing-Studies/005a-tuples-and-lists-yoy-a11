@@ -21,7 +21,7 @@ example:
 Enter the index for an animal:2
 The animal at that index is Dog
 """
-
-
-
-animals =
+lst = ["Cat","Fish","Dog","Bear","Turtle"]
+lst.sort()
+n = int(input())
+print(lst[n])
