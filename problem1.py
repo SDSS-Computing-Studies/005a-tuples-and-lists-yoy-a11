@@ -21,7 +21,7 @@ Enter the replacement:Dan
 """
 myList = ["Alain","Brian","Chris","Justin","Angela","Rick"]
 print(myList)
-myList.remove("Rick")
-print(myList)
-myList.insert(6, "Dan")
+name = input()
+replaceName = input()
+myList[myList.index(name)] = replaceName
 print(myList)
