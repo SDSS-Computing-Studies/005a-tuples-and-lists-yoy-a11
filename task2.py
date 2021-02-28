@@ -25,7 +25,7 @@ Enter a word: virus
 """
 lst = []
 for i in range(5):#range5-> 0,1,2,3,4
-    a = input()
+    a = input().trim()
     lst.append(a)
 print(lst)
 
